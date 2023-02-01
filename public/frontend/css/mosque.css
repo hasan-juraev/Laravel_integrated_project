@@ -1,0 +1,281 @@
+.container1>h1 {
+    width: 90%;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.sub-info{
+    margin: 10px;
+    color: #FF5B02;
+    font-weight: bold;
+}
+.sub-info:hover{
+    color:white;
+}
+
+.box-1 {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    gap: 0px 30px;
+    grid-template-columns: 4fr 5fr;
+}
+
+.box2-chilid1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0px 30px;
+}
+
+.box2-chilid2>img {
+    width: 100%;
+}
+
+.box2-chilid2>p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.box3-chilid1 {
+    width: 100%;
+    height: 40vh;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+    background: rgba(247, 247, 247, 0.22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxtextmosque>h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #FFFFFF;
+
+}
+
+.box2-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container2 {
+    background: #0D4E95;
+
+}
+
+.Big-Box2 {
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+
+.hero1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero1>h2 {
+    font-size: 30px;
+    line-height: 33px;
+}
+
+.hero1>p {
+    font-size: 18px;
+}
+
+.hero-box {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.hero2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 20px;
+}
+
+.hero2img1>p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.hero2img1>img {
+    width: 100%;
+
+}
+
+.btn-end {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.btn-end>button {
+    width: 322.9px;
+    height: 53px;
+    border: none;
+    background-color: #18579a;
+}
+
+.widith-100 {
+    width: 100%;
+    height: 1px;
+    color: #FFFFFF;
+    background: #ffff;
+}
+
+.Hero-footer {
+    background: #0D4E95;
+    height: 26vh;
+    width: 100%;
+
+
+}
+
+.footer-hero-mini {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.text-end-footer {
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 0px 30px;
+    padding-top: 20px;
+    width: 100%;
+    background: #0D4E95;
+    height: 10vh;
+}
+
+.footer4-hero {
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+    line-height: 30px;
+
+}
+
+
+.footer4-img1 {
+    width: 20px;
+    height: 20px;
+
+}
+
+
+.btn-end>button {
+    width: 322.9px;
+    height: 53px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #125ba9;
+}
+
+.arrow-btn {
+    color: white;
+    font-size: 15px;
+
+}
+
+.box1-1>img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .box-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px 0px;
+    }
+
+    .header {
+        height: 240vh;
+    }
+
+    .box2-1 {
+        gap: 20px 0px;
+    }
+
+    .hero-box {
+        display: flex;
+        flex-direction: column;
+        gap: 40px 0px;
+    }
+
+#search{
+    color:black;
+}
+
+    .hero2>img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .header {
+        height: 205vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .box2-chilid2>p {
+        font-size: 19px;
+    }
+
+    .boxtextmosque>h1 {
+        font-size: 20px;
+    }
+
+    .box3-chilid1 {
+        padding: 0px;
+    }
+
+    header {
+        height: 185vh;
+    }
+}

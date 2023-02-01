@@ -1,0 +1,616 @@
+/* common ended */
+.widith-100 {
+    width: 100%;
+    height: 1px;
+    color: #FFFFFF;
+    background: #ffff;
+}
+
+.Hero-footer {
+    background: rgb(38, 59, 177);
+    height: 26vh;
+    width: 100%;
+}
+
+/* common ended */
+
+.Box-2-housing {
+    display: grid;
+    grid-template-columns: 7fr 4fr;
+    width: 90%;
+    margin: 0 auto;
+    gap: 0px 50px;
+}
+
+.menubox2-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30vh;
+}
+
+.menubox2-1>h2 {
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.menubox2-2>img {
+    width: 100%;
+
+}
+
+.menubox2-1>p {
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 39px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.Text-center1 {
+    width: 100%;
+    text-align: center;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    padding-bottom: 60px;
+}
+
+.Hero-Renting {
+    background-image:
+        linear-gradient(90.21deg, #D95757 27.55%, rgba(217, 217, 217, 0) 97.95%),
+        url('../upload/RENTING.png/Renting-min.png');
+
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 75vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+
+}
+
+.Renting-imgtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Renting-imgtext>h1 {
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 87px;
+    color: #FFFFFF;
+    padding-left: 20px;
+    width: 80%;
+}
+
+
+
+/* menu2   css*/
+.Hero-2 {
+    width: 100%;
+    height: 80vh;
+    background: #0D4E95;
+
+
+}
+
+.Hero-2>h1 {
+    width: 100%;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    padding: 100px 0px;
+}
+
+.menubox3-2>img {
+    width: 100%;
+    background-color: #D95757;
+}
+
+/* menu-3 */
+.Hero-3 {
+    width: 100%;
+    background: #0D4E95;
+}
+
+.Box-3-housing {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    gap: 0px 50px;
+    height: 85vh;
+    padding: 100px 0px;
+}
+
+.menubox3-1 {
+    width: 100%;
+    gap: 0px 50px;
+}
+
+.menubox3-1>img {
+    width: 100%;
+}
+
+.menubox3-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45vh;
+
+}
+
+.menubox3-2>h2 {
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.menubox3-2>p {
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 39px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+
+
+
+.Hero-4 {
+    width: 100%;
+    background-color: #0D4E95;
+    height: 65vh;
+}
+
+.menubox4-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    justify-content: space-between;
+}
+
+.menubox4-2>img {
+    width: 100%;
+}
+
+.Box-4-housing {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    width: 90%;
+    margin: 0 auto;
+    gap: 0px 50px;
+}
+
+.menubox4-1>p {
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 39px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.menubox4-1>h2 {
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.Hero-5 {
+    width: 100%;
+    background-color: #0D4E95;
+    height: 65vh;
+}
+
+.Box-5-housing {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    gap: 0px 50px;
+    height: 65vh;
+}
+
+.menubox5-1 {
+    display: flex;
+    flex-direction: column;
+    background: #4179C4;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+}
+
+.menubox5-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35vh;
+}
+
+.menubox5-2>h2 {
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.menubox5-2>p {
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 39px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.menubox5-1>img {
+    width: 100%;
+}
+
+/* foooter */
+
+.footer-hero-mini {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    background: #0D4E95;
+}
+
+
+.text-end-footer {
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 0px 30px;
+    padding-top: 20px;
+    width: 100%;
+    background: #0D4E95;
+    height: 10vh;
+}
+
+.footer4-hero {
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+    line-height: 30px;
+
+}
+
+
+.footer4-img1 {
+    width: 20px;
+    height: 20px;
+
+}
+
+.Hero-6 {
+    width: 100%;
+    background: #0D4E95;
+
+}
+
+.Box-6-housing {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    height: 65vh;
+    gap: 0px 50px;
+}
+
+.menubox6-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45vh;
+}
+
+.menubox6-1>h2 {
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.menubox6-1>p {
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 39px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.menubox6-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    height: 60%;
+}
+
+.menubox6-2>img {
+    width: 100%;
+}
+
+@media screen and (max-width:1140px) {
+    .Renting-imgtext>h1 {
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 47px;
+        color: #FFFFFF;
+        padding-left: 20px;
+        width: 80%;
+    }
+
+    .Hero-2>h1 {
+        width: 100%;
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 49px;
+        /* identical to box height */
+        text-align: center;
+        color: #FFFFFF;
+        padding: 100px 0px;
+    }
+
+    .menubox2-1>p {
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 29px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+
+    .menubox2-1>h2 {
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 49px;
+        color: #FFFFFF;
+    }
+
+    .menubox3-2>h2 {
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 49px;
+        color: #FFFFFF;
+    }
+
+    .menubox3-2>p {
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 29px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+
+    .menubox3-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 35vh;
+
+    }
+
+    .menubox4-1 {
+        height: 35vh;
+    }
+
+    .menubox4-1>p {
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 29px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+
+    .menubox4-1>h2 {
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 49px;
+        color: #FFFFFF;
+    }
+
+    .menubox5-2 {
+        height: 35vh;
+    }
+
+    .menubox5-2>p {
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 29px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+
+    .menubox5-2>h2 {
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 49px;
+        color: #FFFFFF;
+    }
+
+    .menubox6-1 {
+        height: 35vh;
+    }
+
+    .menubox6-1>p {
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 29px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+
+    .menubox6-1>h2 {
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 49px;
+        color: #FFFFFF;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    .Box-2-housing {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px 0px;
+    }
+
+    .Hero-2 {
+        height: 120vh;
+    }
+
+    .menubox2-2>img {
+        width: 100%;
+        display: flex;
+    }
+
+    .Text-center1 {
+        padding-top: 60px;
+    }
+
+    .Renting-imgtext>h1 {
+        width: 100%;
+        font-size: 33px;
+    }
+
+    .Box-3-housing {
+        display: flex;
+        flex-direction: column;
+        gap: 50px 0px;
+
+    }
+
+    .Hero-3 {
+        height: 120vh;
+    }
+
+    .menubox3-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 45vh;
+
+    }
+
+    .menubox3-2>h2 {
+        font-size: 30px;
+    }
+
+    .Box-4-housing {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px 0px;
+    }
+
+    .Hero-4 {
+        height: 105vh;
+    }
+
+    .Box-5-housing {
+        display: flex;
+        flex-direction: column;
+        gap: 50px 0px;
+    }
+
+    .Hero-5 {
+        height: 100vh;
+    }
+
+    .menubox4-1>h2 {
+        font-size: 30px;
+    }
+
+    .menubox5-2>h2 {
+        font-size: 30px;
+    }
+
+    .Box-6-housing {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px 0px;
+    }
+
+    .Hero-6 {
+        height: 100vh;
+    }
+
+    .menubox6-1>h2 {
+        font-size: 30px;
+    }
+}

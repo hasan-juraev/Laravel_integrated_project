@@ -1,0 +1,387 @@
+.Container {
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.Hero-1 {
+    display: grid;
+    grid-template-columns: 6fr 1.8fr;
+    width: 90%;
+    margin: 0 auto;
+    height: 90vh;
+    gap: 0px 40px;
+
+}
+
+.Box-chilid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.chilid-box1 {
+    display: flex;
+    justify-content: end;
+}
+
+.chilid-box1>button {
+    width: 120px;
+    height: 66px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(7.5px);
+    border: none;
+}
+
+.chilid-box2 {
+    width: 100%;
+    height: 140px;
+    left: 123px;
+    top: 679px;
+    background: linear-gradient(0deg, #045499 0.82%, rgba(41, 122, 192, 0) 123.79%);
+    backdrop-filter: blur(7.5px);
+}
+
+.chilid-box2>p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 43px;
+    color: #FFFFFF;
+    font-family: 'Al Nile';
+    padding: 30px;
+}
+
+/*!*/
+
+.Hero-Box2 {
+    height: 92vh;
+    width: 100%;
+    background: #0D4E95;
+}
+
+.Hero-Box2>h3 {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.widith {
+    width: 100%;
+    height: 2px;
+
+    background: #FFFFFF;
+}
+
+.Text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh;
+    padding: 0px 15px;
+}
+
+.text-soat {
+    display: flex;
+    gap: 0px 5px;
+}
+
+.text-soat>p {
+    font-family: 'Al Nile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.text-chilid1>p {
+    width: 98%;
+}
+
+.btn-end1>button {
+    width: 289px;
+    height: 53px;
+    color: white;
+    background: #13589c;
+    border: none;
+}
+
+.Box-2 {
+    width: 100%;
+    height: 100vh;
+    background: #045499;
+}
+
+#nearestm{
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+
+}
+#nearestm:hover{
+    background-color: chartreuse;
+}
+
+.grid-container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px 10px;
+}
+
+.grid-items {
+    
+    width: 289px;
+    height: 193px;
+}
+.btn-box {
+    display: flex;
+    justify-content: end;
+}
+
+.btn-soat {
+    width: 120px;
+    height: 66px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(7.5px);
+    border: none;
+}
+
+.lorem-1 {
+    width: 70%;
+}
+
+.grid-box {
+    width: 290px;
+    height: 290px;
+}
+
+.widith-100 {
+    width: 100%;
+    height: 1px;
+    color: #FFFFFF;
+    background: #ffff;
+}
+
+.Hero-footer {
+    background: #0D4E95;
+    height: 26vh;
+    width: 100%;
+}
+
+.footer-hero-mini {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.text-end-footer {
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 0px 30px;
+    padding-top: 20px;
+    width: 100%;
+    background: #0D4E95;
+    height: 10vh;
+}
+
+.footer4-hero {
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+    line-height: 30px;
+
+}
+
+
+.footer4-img1 {
+    width: 20px;
+    height: 20px;
+
+}
+
+
+
+@media screen and (max-width: 1056px) {
+    .chilid-box2>P {
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+
+    .text-chilid1>p {
+        width: 95%;
+        font-size: 12px;
+    }
+
+    .grid-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .grid-text {
+        font-size: 15px;
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .Box-2 {
+        height: 190vh;
+    }
+
+    .Hero-1 {
+        padding-top: 100px;
+
+    }
+
+    .btn-end1 {
+        justify-content: center;
+        display: flex;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 850px) {
+    .chilid-box2>p {
+        font-size: 14px;
+    }
+
+    .Hero-1 {
+        display: grid;
+        grid-template-columns: auto;
+        width: 90%;
+        margin: 0 auto;
+        gap: 0px 40px;
+
+
+    }
+
+    .Hero-Box1 {
+        background-image: url(../photo/news-big1.png);
+        width: 580px;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+    .header {
+        height: 205vh;
+    }
+
+    .Hero-Box2 {
+        width: 580px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 656px) {
+    .chilid-box2>P {
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+
+    .text-chilid1>p {
+        width: 95%;
+        font-size: 12px;
+    }
+
+    .grid-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .grid-text {
+        font-size: 15px;
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .Box-2 {
+        height: 300vh;
+    }
+
+    .Hero-1 {
+        padding-top: 100px;
+
+    }
+
+    .Hero-Box1 {
+        border: 1px solid red;
+        background-image: url(../photo/news-big1.png);
+        width: 480px;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+
+    .Hero-Box2 {
+        width: 480px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .Hero-Box1 {
+        border: 1px solid red;
+        background-image: url(../photo/news-big1.png);
+        width: 350px;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+
+    .Hero-Box2 {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 390px) {
+
+    .Hero-Box1 {
+        border: 1px solid red;
+        background-image: url(../photo/news-big1.png);
+        width: 290px;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+
+    .Hero-Box2 {
+        width: 290px;
+        margin: 0 auto;
+    }
+
+    .Box-2 {
+        height: 390vh;
+    }
+}
